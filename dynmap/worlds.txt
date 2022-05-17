@@ -1,0 +1,205 @@
+worlds:
+  - name: mithril
+    enabled: false
+  - name: mithril_template
+    enabled: false
+  - name: ship_workshop
+    enabled: false
+
+  - name: evalyn
+    title: Evalyn
+    enabled: true
+    maps:
+      - class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: "Flat"
+        prefix: flat
+        perspective: iso_S_90_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+      - class: org.dynmap.hdmap.HDMap
+        name: surface_se
+        title: "Surface (SE)"
+        prefix: surface_se
+        icon: images/block_world_surface_se.png
+        perspective: iso_SE_30_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+      - class: org.dynmap.hdmap.HDMap
+        name: surface_ne
+        title: "Surface (NE)"
+        prefix: surface_ne
+        icon: images/block_world_surface_ne.png
+        perspective: iso_NE_30_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+      - class: org.dynmap.hdmap.HDMap
+        name: surface_nw
+        title: "Surface (NW)"
+        prefix: surface_nw
+        icon: images/block_world_surface_nw.png
+        perspective: iso_NW_30_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+      - class: org.dynmap.hdmap.HDMap
+        name: surface_sw
+        title: "Surface (SW)"
+        prefix: surface_sw
+        icon: images/block_world_surface_sw.png
+        perspective: iso_SW_30_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+
+  - name: duinn
+    title: Duinn
+    enabled: true
+    template: skylands
+    maps:
+      - class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: "Flat"
+        prefix: flat
+        icon: images/block_skylands_flat.png
+        perspective: iso_S_90_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+      - class: org.dynmap.hdmap.HDMap
+        name: surface_se
+        title: "Surface (SE)"
+        prefix: surface_se
+        icon: images/block_skylands_surface_se.png
+        perspective: iso_SE_30_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+      - class: org.dynmap.hdmap.HDMap
+        name: surface_ne
+        title: "Surface (NE)"
+        prefix: surface_ne
+        icon: images/block_skylands_surface_ne.png
+        perspective: iso_NE_30_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+      - class: org.dynmap.hdmap.HDMap
+        name: surface_nw
+        title: "Surface (NW)"
+        prefix: surface_nw
+        icon: images/block_skylands_surface_nw.png
+        perspective: iso_NW_30_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+      - class: org.dynmap.hdmap.HDMap
+        name: surface_sw
+        title: "Surface (SW)"
+        prefix: surface_sw
+        icon: images/block_skylands_surface_sw.png
+        perspective: iso_SW_30_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+        
+  - name: evalyn_nether
+    title: Nether
+    enabled: true
+    maps:
+      - class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: "Flat"
+        prefix: flat
+        perspective: iso_S_90_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+      - class: org.dynmap.hdmap.HDMap
+        name: surface_se
+        title: "Surface (SE)"
+        prefix: surface_se
+        icon: images/block_nether_surface_se.png
+        perspective: iso_SE_30_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+      - class: org.dynmap.hdmap.HDMap
+        name: surface_ne
+        title: "Surface (NE)"
+        prefix: surface_ne
+        icon: images/block_nether_surface_ne.png
+        perspective: iso_NE_30_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+      - class: org.dynmap.hdmap.HDMap
+        name: surface_nw
+        title: "Surface (NW)"
+        prefix: surface_nw
+        icon: images/block_nether_surface_nw.png
+        perspective: iso_NW_30_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+      - class: org.dynmap.hdmap.HDMap
+        name: surface_sw
+        title: "Surface (SW)"
+        prefix: surface_sw
+        icon: images/block_nether_surface_sw.png
+        perspective: iso_SW_30_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+
+  - name: evalyn_the_end
+    title: The End
+    enabled: true
+    maps:
+      - class: org.dynmap.hdmap.HDMap
+        name: flat
+        title: "Flat"
+        prefix: flat
+        perspective: iso_S_90_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+      - class: org.dynmap.hdmap.HDMap
+        name: surface_se
+        title: "Surface (SE)"
+        prefix: surface_se
+        icon: images/block_the_end_surface_se.png
+        perspective: iso_SE_30_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+      - class: org.dynmap.hdmap.HDMap
+        name: surface_ne
+        title: "Surface (NE)"
+        prefix: surface_ne
+        icon: images/block_the_end_surface_ne.png
+        perspective: iso_NE_30_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+      - class: org.dynmap.hdmap.HDMap
+        name: surface_nw
+        title: "Surface (NW)"
+        prefix: surface_nw
+        icon: images/block_the_end_surface_nw.png
+        perspective: iso_NW_30_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
+      - class: org.dynmap.hdmap.HDMap
+        name: surface_sw
+        title: "Surface (SW)"
+        prefix: surface_sw
+        icon: images/block_the_end_surface_sw.png
+        perspective: iso_SW_30_lowres
+        shader: stdtexture
+        lighting: shadows
+        mapzoomin: 1
